@@ -12,15 +12,14 @@
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
 				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					<a href="/info/24" class="dropdown-toggle" data-toggle="dropdown">
 						{{{ trans('default.Info') }}}
 					</a>
 						<ul class="dropdown-menu">
-							<li><a href="/teachers/24"> {{{ trans('default.Faculty_people')}}} </a></li>
+							<li><a href="/current/24"> {{{ trans('default.Current')}}} </a></li>
 							<li class="divider"></li>
-							<li><a href="/teachers/24"> {{{ trans('default.Assistants')}}} </span></a></li>
-							<li class="divider"></li>
-							<li><a href="/teachers/24"> {{{ trans('default.Staff')}}} </a></li>
+							<li><a href="/history/24"> {{{ trans('default.History')}}} </span></a></li>
+							
 						</ul>
 				</li>	
 				<li><a href="/courses/24">{{{ trans('default.Courses') }}}</a></li>
