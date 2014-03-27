@@ -61,4 +61,6 @@ return array(
 	'Faculty_people'			 => 'Faculty',
 	'Assistants'				 => 'Assistants',
 	'Staff'						 => 'Staff',
+	'Current'					 => 'Current',
+	'History'					 => 'History',
 );

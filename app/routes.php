@@ -44,6 +44,11 @@ Route::get('researches/{department_id}', 'ResearchController@Researches');
 Route::get('research/{id}', 			 'ResearchController@Research');
 //----------------------------------------------------
 
+// info routes--------------------------------------
+Route::get('infos/{department_id}',  'InfoController@Infos');
+Route::get('info/{id}', 			 'InfoController@Info');
+//----------------------------------------------------
+
 // prosp_students routes--------------------------------------
 Route::get('prosp_students/{department_id}', 'CourseController@DeprtCourses');
 Route::get('prosp_student/{id}', 			 'CourseController@Course');
