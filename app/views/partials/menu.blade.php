@@ -12,13 +12,16 @@
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
 				<li class="dropdown">
-					<a href="/info/24" class="dropdown-toggle" data-toggle="dropdown">
+					<a href="/infos/24" class="dropdown-toggle" data-toggle="dropdown">
 						{{{ trans('default.Info') }}}
 					</a>
 						<ul class="dropdown-menu">
-							<li><a href="/current/24"> {{{ trans('default.Current')}}} </a></li>
+							<li><a href="/infos/24/1"> {{{ trans('default.Current')}}} </a>
+									<li>sth</li>
+							</li>
+
 							<li class="divider"></li>
-							<li><a href="/history/24"> {{{ trans('default.History')}}} </span></a></li>
+							<li><a href="/histories/24/3"> {{{ trans('default.History')}}} </span></a></li>
 							
 						</ul>
 				</li>	
@@ -36,8 +39,8 @@
 						</ul>
 				</li>				
 				<li><a href="/researches/24">{{{ trans('default.Research') }}}</a></li>
-				<li><a href="/prosp_students">{{{ trans('default.Prospective Students') }}}</a></li>
-				<li><a href="#">{{{ trans('default.Contact Us') }}}</a></li>
+				<li><a href="/prosp_students/24/2">{{{ trans('default.Prospective Students') }}}</a></li>
+				<li><a href="/contacts/24">{{{ trans('default.Contact Us') }}}</a></li>
 				
 			</ul>			
 		</div>

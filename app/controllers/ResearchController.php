@@ -9,9 +9,9 @@ class ResearchController extends BaseController
 		$this->beforeFilter('csrf', ['on' => ['post', 'put', 'delete']]);
 	}
 
-	public function Researches()
+	public function Researches($department_id)
 	{
-		$researches = Research::first()->orderBy('type', 'asc')->get();
+		$researches = Research::where('department_id', $department_id)->orderBy('type', 'asc')->get();;
 
 		$this->layout->title = 'Research';
 		$this->layout->content = View::make('research.researches')->with('researches', $researches);

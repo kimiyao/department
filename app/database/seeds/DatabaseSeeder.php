@@ -39,6 +39,8 @@ class DatabaseSeeder extends Seeder {
 		$this->call('AcademicTitlesTableSeeder');
 		$this->call('PositionsTableSeeder');
 		$this->call('ResearchesTableSeeder');
+		$this->call('InfoTableSeeder');
+		$this->call('AdressTableSeeder');
 
 	}
 
