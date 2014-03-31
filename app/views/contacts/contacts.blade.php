@@ -1,11 +1,6 @@
 @section('content')
-		<div> 
-			
-			
-			{{{ trans('default.Mailing Address')}}}: <br>
-			{{{ $contacts->getName() }}} <br/>
-			
-		</div>
-	
-
+	<div> 				
+		{{{ trans('default.Mailing Address')}}}: <br>
+		{{{ $contacts->getName() }}} <br/>
+	</div>
 @stop

@@ -41,7 +41,7 @@
 				</tr>
 			</table>
 			
-			<a href="/courses"> {{{ trans('default.back')}}} </a>
+			<a href="/courses/24"> {{{ trans('default.back')}}} </a>
 		</div>
 	
 

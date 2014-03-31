@@ -11,7 +11,7 @@ class AdressTableSeeder extends Seeder
 		$adress = array(
 			['id'   	      => 1,
 			'department_id'   => 1,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -20,7 +20,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 2,
 			'department_id'   => 2,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -29,7 +29,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 3,
 			'department_id'   => 3,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -38,7 +38,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 4,
 			'department_id'   => 4,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -47,7 +47,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 5,
 			'department_id'   => 5,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -56,7 +56,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 6,
 			'department_id'   => 6,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -65,7 +65,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 7,
 			'department_id'   => 7,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -74,7 +74,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 8,
 			'department_id'   => 8,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -83,7 +83,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 9,
 			'department_id'   => 9,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -92,7 +92,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 10,
 			'department_id'   => 10,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -101,7 +101,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 11,
 			'department_id'   => 11,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -110,7 +110,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 12,
 			'department_id'   => 12,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -119,7 +119,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 13,
 			'department_id'   => 13,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -128,7 +128,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 14,
 			'department_id'   => 14,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -137,7 +137,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 15,
 			'department_id'   => 15,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -146,7 +146,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 16,
 			'department_id'   => 16,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -155,7 +155,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 17,
 			'department_id'   => 17,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -164,7 +164,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 18,
 			'department_id'   => 18,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -173,7 +173,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 19,
 			'department_id'   => 19,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -182,7 +182,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 20,
 			'department_id'   => 20,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -191,7 +191,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 21,
 			'department_id'   => 21,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -200,7 +200,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 22,
 			'department_id'   => 22,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -209,7 +209,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 23,
 			'department_id'   => 23,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -218,7 +218,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 24,
 			'department_id'   => 24,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -227,7 +227,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 25,
 			'department_id'   => 25,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -236,7 +236,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 26,
 			'department_id'   => 26,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -245,7 +245,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 27,
 			'department_id'   => 27,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -254,7 +254,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 28,
 			'department_id'   => 28,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -263,7 +263,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 29,
 			'department_id'   => 29,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -272,7 +272,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 30,
 			'department_id'   => 30,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -281,7 +281,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 31,
 			'department_id'   => 31,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -290,7 +290,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 32,
 			'department_id'   => 32,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -299,7 +299,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 33,
 			'department_id'   => 33,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -308,7 +308,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 34,
 			'department_id'   => 34,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -317,7 +317,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 35,
 			'department_id'   => 35,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -326,7 +326,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 36,
 			'department_id'   => 36,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -335,7 +335,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 37,
 			'department_id'   => 37,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',
@@ -344,7 +344,7 @@ Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'updated_at'  	  => date('Y-m-d H:i:s')],
 			['id'   	      => 38,
 			'department_id'   => 38,
-			'en'        	  => 'Chyngyz Aytmatov Campus, Djal, Bishkek, Kyrgyzstan 
+			'en'        	  => 'Chyngyz Aytmatov Campus, Djal,<br/> Bishkek, Kyrgyzstan 
 Phone +996(312) 49 2761, Fax +996(312) 49 2761, e-mail: @manas.edu.kg',
 			'tr'        	  => 'Cengiz Aytmatov Cal Kampüsü, Bişkek, Kırgızistan, Telefon +996(312) 49 2761, e-posta: @manas.edu.kg',
 			'kg'        	  => 'Чынгыз Айтматов атындагы кампус, Джал, Бишкек, Кыргыз Республикасы, тел. +996(312)49 2761',

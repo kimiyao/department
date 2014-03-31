@@ -15,14 +15,25 @@
 					<a href="/infos/24" class="dropdown-toggle" data-toggle="dropdown">
 						{{{ trans('default.Info') }}}
 					</a>
-						<ul class="dropdown-menu">
-							<li><a href="/infos/24/1"> {{{ trans('default.Current')}}} </a>
-									<li>sth</li>
+						<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+							 <li class="dropdown-submenu">
+							 	<a tabindex="-1" href="/infos/24/1"> {{{ trans('default.Current')}}} </a>               
+					                <ul class="dropdown-menu">
+					                  <li><a tabindex="-1" href="#">{{{ trans('default.Vision and Mission')}}}</a></li>
+					                  <li><a href="#">{{{ trans('default.Administration')}}}</a></li>
+					                  <li><a href="#">{{{ trans('default.Committees')}}}</a></li>
+					                  <li><a href="#">{{{ trans('default.Department by Numbers')}}}</a></li>
+					                  <li><a href="#">{{{ trans('default.Accreditation')}}}</a></li>
+					                </ul>            
 							</li>
-
 							<li class="divider"></li>
-							<li><a href="/histories/24/3"> {{{ trans('default.History')}}} </span></a></li>
-							
+							<li class="dropdown-submenu">
+							 	<a tabindex="-1" href="/histories/24/3"> {{{ trans('default.History')}}}  </a>               
+					                <ul class="dropdown-menu">
+					                  <li><a tabindex="-1" href="/histories/24/3">{{{ trans('default.History')}}} </a></li>
+					                  <li><a href="#">{{{ trans('default.Past Chairpersons')}}}</a></li>					                  
+					                </ul>            
+							</li>
 						</ul>
 				</li>	
 				<li><a href="/courses/24">{{{ trans('default.Courses') }}}</a></li>
@@ -37,8 +48,19 @@
 							<li class="divider"></li>
 							<li><a href="/teachers/24"> {{{ trans('default.Staff')}}} </a></li>
 						</ul>
-				</li>				
-				<li><a href="/researches/24">{{{ trans('default.Research') }}}</a></li>
+				</li>
+				<li class="dropdown">				
+					<a href="/researches/24" class="dropdown-toggle" data-toggle="dropdown">
+						{{{ trans('default.Research') }}}
+					</a>
+					<ul class="dropdown-menu">
+							<li><a href="/researches/24"> {{{ trans('default.Research Groups')}}} </a></li>
+							<li class="divider"></li>
+							<li><a href="/researches/24"> {{{ trans('default.Theses and Term Projects')}}} </span></a></li>
+							<li class="divider"></li>
+							<li><a href="/researches/24"> {{{ trans('default.Projects')}}} </a></li>
+					</ul>
+				</li>
 				<li><a href="/prosp_students/24/2">{{{ trans('default.Prospective Students') }}}</a></li>
 				<li><a href="/contacts/24">{{{ trans('default.Contact Us') }}}</a></li>
 				

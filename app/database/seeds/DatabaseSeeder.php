@@ -41,6 +41,7 @@ class DatabaseSeeder extends Seeder {
 		$this->call('ResearchesTableSeeder');
 		$this->call('InfoTableSeeder');
 		$this->call('AdressTableSeeder');
+		$this->call('MenuTableSeeder');
 
 	}
 

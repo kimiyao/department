@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateAdressTable extends Migration {
+class CreateMenuTable extends Migration {
 
 	/**
 	 * Run the migrations.
@@ -12,16 +12,16 @@ class CreateAdressTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('adress', function(Blueprint $table)
+		Schema::create('menu', function(Blueprint $table)
 		{
 			$table->engine = 'InndoDB';
 			$table->tinyInteger('id')->primary();
-			$table->tinyInteger('department_id');
-			$table->text('kg');
-			$table->text('ru');
-			$table->text('en');
-			$table->text('tr');
-			$table->timestamps();
+			$table->tinyInteger('parent_id');
+			$table->string('kg', 100);
+			$table->string('ru', 100);
+			$table->string('en', 100);
+			$table->string('tr', 100);
+			$table->string('url', 100);
 		});
 	}
 
@@ -32,7 +32,7 @@ class CreateAdressTable extends Migration {
 	 */
 	public function down()
 	{
-		Schema::drop('adress');
+		Schema::drop('menu');
 	}
 
 }
