@@ -8,3 +8,7 @@
 	@endforeach
 
 @stop
+
+@section('sidebar')
+	@include('partials.contacts-sidebar')
+@stop

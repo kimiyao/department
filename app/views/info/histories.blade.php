@@ -1,13 +1,18 @@
 @section('content')
 
 @foreach($infos as $info)
-	@for($i=1; $i<=4; $i++)
-		@if($info->type == $i)
+	
 			<div> 
-				<a href="/info/{{{ $info->title }}}"> {{{ $info->title }}} </a>
+				{{{ $info->title }}} 
 			</div>
-		@endif
-	@endfor
+			<p>
+				{{{ $info->description }}} 
+			</p>
+	
 @endforeach
 
+@stop
+
+@section('sidebar')
+	@include('partials.info-sidebar')
 @stop

@@ -12,13 +12,13 @@
 	@yield('style')
 </head>
 <body>
-	<div class="container">
+	<div class="container" style="min-height:100%;">
 		@include('partials.banner')
 		@include('partials.menu')
-		<div style="border:1px solid #ccc;" class="col-md-9 col-xs-12">
+		<div class="col-md-9 col-xs-12">
 			@yield('content')
 		</div>		
-		<div style="border:1px solid #ccc;" class="col-md-3 visible-md visible-lg">
+		<div style="border-left:1px solid #ccc;" class="col-md-3 visible-md visible-lg">
 			@yield('sidebar')
 		</div>
 	</div>

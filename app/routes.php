@@ -18,10 +18,11 @@ Route::post('logout', 'AdminController@pLogout');
 //----------------------------------------------------
 
 // user routes----------------------------------------
-Route::get('teachers/{department_id}', 'UserController@DeprtTeachers');
-Route::get('user/{id}'     , 		   'UserController@User');
-Route::get('user/{id}/edit', 		   'UserController@Edit');
-Route::put('user/{id}/edit',  		   'UserController@putEdit');
+Route::get('teachers/{department_id}',        'UserController@DeprtTeachers');
+Route::get('teachers/{department_id}/{type}', 'UserController@DeprtStaff');
+Route::get('user/{id}'     , 		   		  'UserController@User');
+Route::get('user/{id}/edit', 		   		  'UserController@Edit');
+Route::put('user/{id}/edit',  		   		  'UserController@putEdit');
 //----------------------------------------------------
 
 // course routes--------------------------------------
@@ -40,8 +41,8 @@ Route::get('department/{name}', 'DepartmentController@Department');
 //----------------------------------------------------
 
 // research routes--------------------------------------
-Route::get('researches/{department_id}', 'ResearchController@Researches');
-Route::get('research/{id}'			   , 'ResearchController@Research');
+Route::get('researches/{department_id}/{type}', 'ResearchController@Researches');
+Route::get('research/{id}'			   , 		'ResearchController@Research');
 //----------------------------------------------------
 
 // current info routes--------------------------------------

@@ -20,7 +20,15 @@ class UserController extends BaseController
 	public function DeprtTeachers($department_id)
 	{
 		$deprtteachers = Teacher::where('department_id', $department_id)->get();
+		$this->layout=View::make('layouts.sidebar');
+		$this->layout->title = 'Teachers';
+		$this->layout->content = View::make('user.teachers')->with('teachers', $deprtteachers);
+	}
 
+	public function DeprtStaff($department_id, $type)
+	{
+		$deprtteachers = Teacher::where('department_id', $department_id)->where('position', $type)->get();
+		$this->layout=View::make('layouts.sidebar');
 		$this->layout->title = 'Teachers';
 		$this->layout->content = View::make('user.teachers')->with('teachers', $deprtteachers);
 	}

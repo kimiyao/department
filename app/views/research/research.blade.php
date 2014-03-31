@@ -10,3 +10,7 @@
 	
 
 @stop
+
+@section('sidebar')
+	@include('partials.research-sidebar')
+@stop

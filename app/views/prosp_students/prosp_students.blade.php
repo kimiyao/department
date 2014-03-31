@@ -11,3 +11,7 @@
 @endforeach
 
 @stop
+
+@section('sidebar')
+	@include('partials.prosp_students-sidebar')
+@stop

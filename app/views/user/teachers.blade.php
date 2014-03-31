@@ -9,3 +9,7 @@
 @endforeach	
 
 @stop
+
+@section('sidebar')
+	@include('partials.people-sidebar')
+@stop

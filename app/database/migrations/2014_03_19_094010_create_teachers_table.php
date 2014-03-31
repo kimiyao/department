@@ -18,6 +18,7 @@ class CreateTeachersTable extends Migration {
 			$table->string('id', 100)->unique()->primary();
 			$table->tinyInteger('affiliation_id');
 			$table->tinyInteger('department_id');
+			$table->tinyInteger('position');
 			$table->string('office', 100);
 			$table->string('phone', 100);
 			$table->string('web', 100);

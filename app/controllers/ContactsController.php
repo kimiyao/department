@@ -13,7 +13,8 @@ class ContactsController extends BaseController
 	public function Contacts($department_id)
 	{
 		$contacts = Contacts::where('department_id', $department_id)->first();
-		
+
+		$this->layout=View::make('layouts.sidebar');
 		$this->layout->title = 'Contacts';
 		$this->layout->content = View::make('contacts.contacts')->with('contacts', $contacts);
 	}

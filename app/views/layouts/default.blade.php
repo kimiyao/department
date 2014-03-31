@@ -12,7 +12,7 @@
 	@yield('style')
 </head>
 <body>
-	<div class="container">
+	<div class="container" style="min-height:100%;">
 		@include('partials.banner')
 		@include('partials.menu')
 		@yield('content')		
