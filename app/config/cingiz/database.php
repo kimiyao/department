@@ -6,7 +6,8 @@ return array(
 	'connections' => array(
 
 		'mysql' => array(
-			'database'  => 'uzem',
+			'host'      => '127.0.0.1',
+			'database'  => 'manasuni',
 			'username'  => 'root',
 			'password'  => 'qwe123',
 		),
