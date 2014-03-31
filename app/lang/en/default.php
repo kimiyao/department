@@ -73,4 +73,5 @@ return array(
 	'Research Groups'			 => 'Research Groups',
 	'Theses and Term Projects'	 => 'Theses and Term Projects',
 	'Projects'					 => 'Projects',
+	'24'						 => 'Computer Engineering',
 );
