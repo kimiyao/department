@@ -1,7 +1,7 @@
 @section('content')
 
 
-<div> 
+<div>
 	{{{ $course->code }}} : {{{ $course->name }}} <br/>
 	<table class="table table-primary course-table">
 		<tr>
