@@ -1,7 +1,7 @@
 @section('content')
 
 	
-		<div> 
+		<div class="content">
 			{{{ $faculty->id }}} : {{{ $faculty->getName() }}} <br/>
 			
 			faculty departments: <br>

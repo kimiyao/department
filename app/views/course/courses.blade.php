@@ -1,4 +1,5 @@
 @section('content')
+<div class="content">
 @for($i=1; $i<=8; $i++)
 	
 	<table class="table table-primary vertical-table">
@@ -48,5 +49,5 @@
 	</table>
 @endfor
 
-
+</div>
 @stop

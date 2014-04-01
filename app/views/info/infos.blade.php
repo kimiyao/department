@@ -1,5 +1,5 @@
 @section('content')
-
+<div class="content">
 @foreach($infos as $info)
 	
 			<div> 
@@ -7,9 +7,11 @@
 			</div>
 		
 @endforeach
-
+</div>
 @stop
 
 @section('sidebar')
+<div class="content">
 	@include('partials.info-sidebar')
+</div>
 @stop

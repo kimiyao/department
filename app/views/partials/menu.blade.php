@@ -8,9 +8,10 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="/"><span class="glyphicon glyphicon-home"></span></a>
+			
 		</div>
 		<div class="navbar-collapse collapse">
+		<a class="navbar-brand" href="/"><span class="glyphicon glyphicon-home"></span></a>
 			<ul class="nav navbar-nav">
 				<li class="dropdown">
 					<a href="/infos/24" class="dropdown-toggle" data-toggle="dropdown">

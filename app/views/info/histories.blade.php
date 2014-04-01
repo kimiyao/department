@@ -1,18 +1,20 @@
 @section('content')
-
-@foreach($infos as $info)
+<div class="content">
+	@foreach($infos as $info)
 	
-			<div> 
-				{{{ $info->getName() }}} 
-			</div>
-			<p>
-				{{{ $info->getDescription() }}} 
-			</p>
+	<div> 
+		{{{ $info->getName() }}} 
+	</div>
+	<p>
+		{{{ $info->getDescription() }}} 
+	</p>
 	
-@endforeach
-
+	@endforeach
+</div>
 @stop
 
 @section('sidebar')
+<div class="content">
 	@include('partials.info-sidebar')
+</div>
 @stop

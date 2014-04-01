@@ -1,7 +1,7 @@
 @section('content')
 
 
-<div> 
+<div class="content">> 
 <h2>
 	{{{ $course->code }}} : {{{ $course->name }}}
 </h2>

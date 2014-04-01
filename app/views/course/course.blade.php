@@ -1,7 +1,7 @@
 @section('content')
 
 
-<div> 
+<div class="content">
 	<h3>{{{ $course->code }}} : {{{ $course->name }}} </h3>
 	<table class="table table-primary horizontal-table">
 		<tr>
