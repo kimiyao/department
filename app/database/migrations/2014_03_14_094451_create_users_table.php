@@ -21,6 +21,7 @@ class CreateUsersTable extends Migration {
 			$table->string('firstname', 100);
 			$table->string('lastname', 100);
 			$table->tinyInteger('position');
+			$table->string('picture', 100);
 			$table->boolean('active')->default(1);
 			$table->timestamps();
 		});

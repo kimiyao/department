@@ -22,9 +22,18 @@ class CourseController extends BaseController
 	{
 		// $courses = Course::all();
 		$deprtcourses = Course::where('department_id', $department_id)->orderBy('semester', 'asc')->get();
-
+		$this->layout=View::make('layouts.sidebar');
 		$this->layout->title = 'Courses';
 		$this->layout->content = View::make('course.courses')->with('courses', $deprtcourses);
+	}
+
+	public function DeprtCoursesWeekly($department_id)
+	{
+		// $courses = Course::all();
+		$deprtcourses = Course::where('department_id', $department_id)->orderBy('semester', 'asc')->get();
+		$this->layout=View::make('layouts.sidebar');
+		$this->layout->title = 'Courses';
+		$this->layout->content = View::make('course.weekly')->with('courses', $deprtcourses);
 	}
 
 	public function Course($code)

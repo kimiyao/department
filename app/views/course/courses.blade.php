@@ -1,47 +1,59 @@
 @section('content')
+<div class="content">
+@for($i=1; $i<=8; $i++)
+	
+	<table class="table table-primary vertical-table">
+	<tr>
+		<th colspan="4" style="text-align:center; border-top:#08088A; background:#ACACAC; color:#08088A"> 
+			{{{ trans('default.Semester') }}} {{{ $i }}} 
+		</th>
+	</tr>
+		<tr>
+			<th>
+				{{{ trans('default.Code') }}} 
+			</th>
+			<th>
+				{{{ trans('default.Name') }}} 
+			</th>
+			<th>
+				{{{ trans('default.Credits') }}} 
+			</th>
+			<th>
+				{{{ trans('default.Syllabus') }}} 
+			</th>					
+		</tr>
+		@foreach($courses as $course)
+			@if($course->semester == $i)
 
-@foreach($courses as $course)
-	@for($i=1; $i<=8; $i++)
-		@if($course->semester == $i)
-			{{{ trans('default.Semester') }}} : {{{ $i }}}
-			<table class="table table-primary">
-				<tr>
-					<td>
-						{{{ trans('default.Code') }}} 
-					</td>
-					<td>
-						{{{ trans('default.Name') }}} 
-					</td>
-					<td>
-						{{{ trans('default.Credits') }}} 
-					</td>
-					<td>
-						{{{ trans('default.Syllabus') }}} 
-					</td>					
-				</tr>
-				<tr>
-					<td>						
-						{{{ $course->code }}}						
-					</td>
-					<td>
-						<a href="/course/{{{ $course->code }}}"> 
-							{{{ $course->name }}}
-						</a>
-					</td>
-					<td>
-						{{{ $course->credit }}} ({{{ $course->credit_theory }}}:{{{ $course->credit_practice }}})
-					</td>
-					<td>
-						<a href="/syllabuses/{{{ $course->url }}}"> 
-							{{{ trans('default.download') }}}
-						</a>
-					</td>
-				</tr>
-			</table>
-		@endif
-	@endfor
-@endforeach	
+			<tr>
+				<td>						
+					{{{ $course->code }}}						
+				</td>
+				<td>
+					<a href="/course/{{{ $course->code }}}"> 
+						{{{ $course->name }}}
+					</a>
+				</td>
+				<td>
+					{{{ $course->credit }}} ({{{ $course->credit_theory }}}:{{{ $course->credit_practice }}})
+				</td>
+				<td>
+					<a href="/syllabuses/{{{ $course->url }}}"> 
+						{{{ trans('default.download') }}}
+					</a>
+				</td>
+			</tr>
 
+			@endif
+		@endforeach	
+	</table>
+@endfor
 
+</div>
+@stop
 
+@section('sidebar')
+<div class="content">
+	@include('partials.courses-sidebar')
+</div>
 @stop

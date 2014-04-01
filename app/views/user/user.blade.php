@@ -1,48 +1,54 @@
 @section('content')
-
+	<div style="position:relative;">
+	
 	<div> 
-		{{{ $user->firstname }}} {{{ $user->lastname }}} <!-- <a href="/user/{{{ $user->id }}}/edit">edit</a> --> 
+		<h3>
+			{{{ $user->firstname }}} {{{ $user->lastname }}} <!-- <a href="/user/{{{ $user->id }}}/edit">edit</a> --> 
+		</h3>
 	</div>
-	<table class="table table-primary">
+	<div class="profile_pic">
+		<img src="{{{ $user->picture}}}">
+	</div>
+	<table class="table table-primary horizontal-table">
 		<tr>
 			<th>
 				{{{ trans('default.Affiliation')}}}
 			</th>
-			<th>
+			<td>
 				{{{ $user->teacher->affiliation->institution}}}
-			</th>
+			</td>
 		</tr>
 		<tr>
 			<th>
 				{{{ trans('default.Office')}}}
 			</th>
-			<th>
+			<td>
 				{{{ $user->teacher->office}}}
-			</th>
+			</td>
 		</tr>
 		<tr>
 			<th>
 				{{{ trans('default.email')}}}
 			</th>
-			<th>
+			<td>
 				{{{ $user->email}}}
-			</th>
+			</td>
 		</tr>
 		<tr>
 			<th>
 				{{{ trans('default.Area of Interests')}}}
 			</th>
-			<th>
+			<td>
 				@foreach($user->interestareas as $area)
 					{{{ $area->area}}}<br/>
 				@endforeach
-			</th>
+			</td>
 		</tr>
 		<tr>
 			<th>
 				{{{ trans('default.Education')}}}
 			</th>
-			<th>
+			<td>
 				@foreach($user->educations as $education)
 					{{{ $education->edtype->degree}}}: 
 					{{{ $education->studied->institution}}},
@@ -50,7 +56,7 @@
 						{{{ $education->department}}},
 					{{{ $education->graduated}}} <br/>
 				@endforeach
-			</th>
+			</td>
 		</tr>
 	</table>
 	{{{trans('default.Courses')}}}: <br/>
@@ -63,6 +69,5 @@
 		@foreach ($user->publications as $publication)
 			{{{ $publication->title }}}<br/>
 		@endforeach
-	
-
+		</div>
 @stop

@@ -20,4 +20,9 @@ class Info extends Eloquent
 		return $this[Config::get('app.locale')];
 	}
 
+	public function getDescription()
+	{
+		return $this['description_'.Config::get('app.locale')];
+	}
+
 }

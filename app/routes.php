@@ -26,8 +26,9 @@ Route::put('user/{id}/edit',  		   		  'UserController@putEdit');
 //----------------------------------------------------
 
 // course routes--------------------------------------
-Route::get('courses/{department_id}', 'CourseController@DeprtCourses');
-Route::get('course/{code}', 		  'CourseController@Course');
+Route::get('courses/{department_id}', 		 'CourseController@DeprtCourses');
+Route::get('courses/{department_id}/weekly', 'CourseController@DeprtCoursesWeekly');
+Route::get('course/{code}', 		 		 'CourseController@Course');
 //----------------------------------------------------
 
 // faculty routes--------------------------------------
@@ -42,6 +43,7 @@ Route::get('department/{name}', 'DepartmentController@Department');
 
 // research routes--------------------------------------
 Route::get('researches/{department_id}/{type}', 'ResearchController@Researches');
+Route::get('researches/{department_id}', 		'ResearchController@ResearchesAll');
 Route::get('research/{id}'			   , 		'ResearchController@Research');
 //----------------------------------------------------
 

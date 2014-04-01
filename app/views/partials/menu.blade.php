@@ -1,5 +1,6 @@
-<div class="navbar-wrapper">
-	<div class="navbar navbar-inverse" role="navigation">
+
+<div class="navbar-wrapper red-menu">
+	<div class="navbar" role="navigation">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 				<span class="sr-only">toggle navigation</span>
@@ -7,9 +8,10 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="/"><span class="glyphicon glyphicon-home"></span></a>
+			
 		</div>
 		<div class="navbar-collapse collapse">
+		<a class="navbar-brand" href="/"><span class="glyphicon glyphicon-home"></span></a>
 			<ul class="nav navbar-nav">
 				<li class="dropdown">
 					<a href="/infos/24" class="dropdown-toggle" data-toggle="dropdown">
@@ -36,9 +38,9 @@
 							</li>
 						</ul>
 				</li>	
-				<li><a href="/courses/24">{{{ trans('default.Courses') }}}</a></li>
+				
 				<li class="dropdown">
-					<a href="/teachers/24" class="dropdown-toggle" data-toggle="dropdown">
+					<a  tabindex="-1" href="/teachers/24" data-target="#" class="dropdown-toggle" data-toggle="dropdown">
 						{{{ trans('default.People') }}}
 					</a>
 						<ul class="dropdown-menu">
@@ -49,8 +51,20 @@
 							<li><a href="/teachers/24/3"> {{{ trans('default.Staff')}}} </a></li>
 						</ul>
 				</li>
+
+				<li>
+					<a tabindex="-1" href="/courses/24" data-target="#" class="dropdown-toggle" data-toggle="dropdown">
+						{{{ trans('default.Courses') }}}
+					</a>
+						<ul class="dropdown-menu">
+							<li><a href="/courses/24"> {{{ trans('default.Courses')}}} </a></li>
+							<li class="divider"></li>
+							<li><a href="/courses/24/weekly"> {{{ trans('default.Week Schedule')}}} </span></a></li>							
+						</ul>
+				</li>
+
 				<li class="dropdown">				
-					<a href="/researches/24/1" class="dropdown-toggle" data-toggle="dropdown">
+					<a href="/researches/24" data-target="#" class="dropdown-toggle" data-toggle="dropdown">
 						{{{ trans('default.Research') }}}
 					</a>
 					<ul class="dropdown-menu">

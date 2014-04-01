@@ -1,7 +1,7 @@
 @section('content')
 
 	
-		<div> 
+		<div class="content">> 
 			{{{ $department->getName() }}} <br/>
 			
 			{{{ trans('default.Department Courses')}}}: <br>

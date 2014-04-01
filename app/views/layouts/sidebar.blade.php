@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title> {{{ trans('default.MANAS Online') }}} </title>
+<title> {{{ trans('default.24') }}} </title>
 <head>
 	<title>{{{ $title }}}</title>
 	<meta charset="UTF-8">
@@ -18,7 +18,7 @@
 		<div class="col-md-9 col-xs-12">
 			@yield('content')
 		</div>		
-		<div style="border-left:1px solid #ccc;" class="col-md-3 visible-md visible-lg">
+		<div style="border-left:1px solid #ccc;padding-left:10px;" class="col-md-3 visible-md visible-lg">
 			@yield('sidebar')
 		</div>
 	</div>

@@ -1,9 +1,8 @@
 @section('content')
 
-
-<div>
-	{{{ $course->code }}} : {{{ $course->name }}} <br/>
-	<table class="table table-primary course-table">
+<div class="content">
+	<h3>{{{ $course->code }}} : {{{ $course->name }}} </h3>
+	<table class="table table-primary horizontal-table">
 		<tr>
 			<th>
 				{{{trans('default.Offered by')}}}  
@@ -36,8 +35,8 @@
 
 
 	<div class="course-description">
-	<h3>{{{ trans('default.Course description') }}}</h3>
-	{{{ $course->description }}}
+		<h4>{{{ trans('default.Course description') }}}</h4>
+		{{{ $course->description }}}
 	</div>
 
 	<a href="/courses/24" class="btn btn-primary btn-sm"> {{{ trans('default.back')}}} </a>

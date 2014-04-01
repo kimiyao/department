@@ -18,6 +18,15 @@ class ResearchController extends BaseController
 		$this->layout->content = View::make('research.researches')->with('researches', $researches);
 	}
 
+	public function ResearchesAll($department_id)
+	{
+		$researches = Research::where('department_id', $department_id)->orderBy('type', 'asc')->get();;
+
+		$this->layout=View::make('layouts.sidebar');
+		$this->layout->title = 'Research';
+		$this->layout->content = View::make('research.researches')->with('researches', $researches);
+	}
+
 	public function Research($title)
 	{
 		$research = Research::where('title', $title)->first();
