@@ -52,7 +52,16 @@
 						</ul>
 				</li>
 
-				<li><a href="/courses/24">{{{ trans('default.Courses') }}}</a></li>
+				<li>
+					<a tabindex="-1" href="/courses/24" data-target="#" class="dropdown-toggle" data-toggle="dropdown">
+						{{{ trans('default.Courses') }}}
+					</a>
+						<ul class="dropdown-menu">
+							<li><a href="/courses/24"> {{{ trans('default.Courses')}}} </a></li>
+							<li class="divider"></li>
+							<li><a href="/courses/24/weekly"> {{{ trans('default.Week Schedule')}}} </span></a></li>							
+						</ul>
+				</li>
 
 				<li class="dropdown">				
 					<a href="/researches/24" data-target="#" class="dropdown-toggle" data-toggle="dropdown">

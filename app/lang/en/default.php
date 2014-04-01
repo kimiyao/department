@@ -76,5 +76,12 @@ return array(
 	'24'						 => 'Computer Engineering',
 	'Course description'		 => 'Course description',
 	'KTMU - Address'			 => '720044 Mira ave., 56, Bishkek, Kyrgyz Republic | +996 (312) 54 19 41-47 |',
-	'logo_main'					 => '/img/logo/Manas_logo.jpg'
+	'logo_main'					 => '/img/logo/Manas_logo.jpg',
+	'KTMU'						 => 'KYRGYZSTAN TURKEY <br/> MANAS UNIVERSITY',
+	'Week Schedule'				 => 'Week Schedule',
+	'Mon'						 => 'Mo',
+	'Tue'						 => 'Tu',
+	'Wen'						 => 'We',
+	'Thu'						 => 'Th',
+	'Fri'						 => 'Fr',
 );

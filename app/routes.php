@@ -26,8 +26,9 @@ Route::put('user/{id}/edit',  		   		  'UserController@putEdit');
 //----------------------------------------------------
 
 // course routes--------------------------------------
-Route::get('courses/{department_id}', 'CourseController@DeprtCourses');
-Route::get('course/{code}', 		  'CourseController@Course');
+Route::get('courses/{department_id}', 		 'CourseController@DeprtCourses');
+Route::get('courses/{department_id}/weekly', 'CourseController@DeprtCoursesWeekly');
+Route::get('course/{code}', 		 		 'CourseController@Course');
 //----------------------------------------------------
 
 // faculty routes--------------------------------------

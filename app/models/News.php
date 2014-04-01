@@ -8,4 +8,14 @@ class News extends Eloquent
 	{
 		$this->table = 'news';
 	}
+
+	public function getName()
+	{
+		return $this[Config::get('app.locale')];
+	}
+
+	public function getDescription()
+	{
+		return $this['description_'.Config::get('app.locale')];
+	}
 }

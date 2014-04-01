@@ -51,3 +51,9 @@
 
 </div>
 @stop
+
+@section('sidebar')
+<div class="content">
+	@include('partials.courses-sidebar')
+</div>
+@stop

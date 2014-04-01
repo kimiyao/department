@@ -3,7 +3,7 @@
 	<div class="jumbotron hidden-xs" style="margin-bottom: 60px">
 		<div class="container">
 			<h1>Hello, world!</h1>
-			<p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+			<p>{{{ trans('default.24')}}}</p>
 			<p><a class="btn btn-primary btn-lg" role="button">Learn more »</a></p>
 		</div>
 	</div>
@@ -16,13 +16,13 @@
 			<img class="featurette-image img-responsive visible-md visible-lg img-thumbnail" src="/img/course/ed_tech.jpg" alt="Generic placeholder image">
 		</div>
 		<div class="col-md-7">
-			<h2 class="featurette-heading"><a href="/">{{{ $new->title }}} </a><span class="text-muted">See for yourself.</span></h2>
-			<p class="lead featurette-text"> {{{$new->description}}} </p>
+			<h2 class="featurette-heading"><a href="/">{{{ $new->getName() }}} </a><span class="text-muted">See for yourself.</span></h2>
+			<p class="lead featurette-text"> {{{$new->getDescription()}}} </p>
 		</div>
 		@else
 		<div class="col-md-7">
-			<h2 class="featurette-heading"><a href="/">{{{ $new->title }}} </a></h2>
-			<p class="lead featurette-text"> {{{$new->description}}} </p>
+			<h2 class="featurette-heading"><a href="/">{{{ $new->getName() }}} </a></h2>
+			<p class="lead featurette-text"> {{{$new->getDescription()}}} </p>
 		</div>
 		<div class="col-md-5" style="margin-left: -5px; text-align: center">
 			<img class="featurette-image img-responsive visible-md visible-lg img-thumbnail" src="/img/course/action_research.jpg" alt="Generic placeholder image">
