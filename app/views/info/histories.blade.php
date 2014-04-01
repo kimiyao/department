@@ -3,10 +3,10 @@
 @foreach($infos as $info)
 	
 			<div> 
-				{{{ $info->title }}} 
+				{{{ $info->getName() }}} 
 			</div>
 			<p>
-				{{{ $info->description }}} 
+				{{{ $info->getDescription() }}} 
 			</p>
 	
 @endforeach

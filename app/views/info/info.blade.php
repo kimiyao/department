@@ -2,9 +2,9 @@
 
 	
 		<div> 
-			{{{ $info->title }}} <br/>
+			{{{ $info->getName() }}} <br/>
 			
-			{{{ $info->description }}}
+			{{{ $info->getDescription() }}}
 					
 		</div>
 	

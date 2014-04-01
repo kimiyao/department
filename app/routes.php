@@ -42,6 +42,7 @@ Route::get('department/{name}', 'DepartmentController@Department');
 
 // research routes--------------------------------------
 Route::get('researches/{department_id}/{type}', 'ResearchController@Researches');
+Route::get('researches/{department_id}', 		'ResearchController@ResearchesAll');
 Route::get('research/{id}'			   , 		'ResearchController@Research');
 //----------------------------------------------------
 

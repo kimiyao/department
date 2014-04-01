@@ -74,4 +74,6 @@ return array(
 	'Theses and Term Projects'	 => 'Theses and Term Projects',
 	'Projects'					 => 'Projects',
 	'24'						 => 'Computer Engineering',
+	'Course description'		 => 'Course description',
+	'KTMU - Address'			 => '720044 Mira ave., 56, Bishkek, Kyrgyz Republic | +996 (312) 54 19 41-47 |',
 );

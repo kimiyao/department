@@ -13,6 +13,29 @@ body
 	
 }
 
+h1 {
+    font-size:1.8em;
+    }
+
+h2 {
+    font-size:1.2em;
+    font-family: Times;
+    font-style: italic; 
+    }
+
+h3 {
+    font-size:1.2em;
+    font-family: Times;
+    font-style: italic;
+    font-weight: bold; 
+    color:#08088A;
+    }
+
+h4 {
+    font-size: 1.1em;
+    font-family: Times;
+    color: #666;
+}
 body *
 {
   word-wrap:break-word;
@@ -28,6 +51,7 @@ body *
 	/*padding: 0;*/
 	
 }
+
 
 @media (min-width: 768px) {
 	.navbar-wrapper
@@ -49,6 +73,9 @@ body *
 	height: 60px;
 	width: 100%;
 	background-color: #f5f5f5;
+    text-align: center;
+    vertical-align: middle;
+    border-top: 2px solid #FFF112;
 }
 
 .dropdown-submenu {
@@ -104,8 +131,66 @@ body *
     font-size: 18px;
     color: #666;
 }
-
-.course-table
+ 
+.sidebar
 {
     background: #eee;
+    font-family: Times;
+   padding-left: 10px;
 }
+/*tables*/
+.vertical-table
+{
+    border-top:1px solid #08088A; 
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 80%;
+    border-bottom:1px solid #08088A;
+}
+.vertical-table th
+{
+   
+    border-bottom:1px solid #08088A; 
+    background: #eee;
+}
+
+.horizontal-table
+{
+    margin-left: 20px;
+    width: 80%;
+}
+.horizontal-table th
+{
+    border-right:1px solid #08088A; 
+    background: #eee;
+   
+}
+
+/*images*/
+.profile_pic
+{
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.profile_pic img
+{
+    width: 200px;
+}
+
+/*menu items*/
+.red-menu
+{
+    border-bottom: 2px solid #EC3338;
+}
+
+.red-menu .navbar 
+{
+    margin-bottom: 0px;
+    max-width: 100%;
+
+}
+

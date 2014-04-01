@@ -3,7 +3,7 @@
 @foreach($infos as $info)
 	
 			<div> 
-				<a href="/info/{{{ $info->title }}}"> {{{ $info->title }}} </a>
+				<a href="/info/{{{ $info->title }}}"> {{{ $info->getName() }}} </a>
 			</div>
 		
 @endforeach

@@ -19,7 +19,14 @@ class CreateInfoTable extends Migration {
 			$table->tinyInteger('type');
 			$table->tinyInteger('department_id');
 			$table->string('title', 100);
-			$table->text('description');
+			$table->string('en', 100);
+			$table->string('kg', 100);
+			$table->string('tr', 100);
+			$table->string('ru', 100);
+			$table->text('description_en');
+			$table->text('description_kg');
+			$table->text('description_tr');
+			$table->text('description_ru');
 			$table->timestamps();
 		});
 	}

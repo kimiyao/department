@@ -2,8 +2,8 @@
 
 
 <div> 
-	{{{ $course->code }}} : {{{ $course->name }}} <br/>
-	<table class="table table-primary course-table">
+	<h3>{{{ $course->code }}} : {{{ $course->name }}} </h3>
+	<table class="table table-primary horizontal-table">
 		<tr>
 			<th>
 				{{{trans('default.Offered by')}}}  
@@ -36,7 +36,7 @@
 
 
 	<div class="course-description">
-	<h3>{{{ trans('default.Course description') }}}</h3>
+	<h4>{{{ trans('default.Course description') }}}</h4>
 	{{{ $course->description }}}
 	</div>
 
